@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <link rel="canonical" href="">
+    <meta name="keywords" content="">
+    <meta name="author" content="">
+    <meta name="description" content="">
+    <style>
+    @keyframes slideInDown {
+        0% {
+            opacity: 0;
+            transform: translate3d(0, -100%, 0);
+            visibility: hidden;
+        }
+        50% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+            transform: translate3d(0, 0, 0);
+        }
+    }
+
+    .slideInDown1 {
+        animation-name: slideInDown;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+    }
+
+    .slideInDown2 {
+        animation-name: slideInDown;
+        animation-duration: 2s;
+        animation-fill-mode: forwards;
+    }
+
+    .slideInDown3 {
+        animation-name: slideInDown;
+        animation-duration: 3s;
+        animation-fill-mode: forwards;
+    }
+
+    .slideInDown4 {
+        animation-name: slideInDown;
+        animation-duration: 4s;
+        animation-fill-mode: forwards;
+    }
+
+    .slideInDown5 {
+        animation-name: slideInDown;
+        animation-duration: 5s;
+        animation-fill-mode: backwards;
+    }
+    </style>
+</head>
+
+<body>
+    <div class="content">
+        <div class="slideInDown">
+            <ul>
+                <li class="slideInDown5">Lorem ipsum dolor sit amet, </li>
+                <li class="slideInDown4">consectetur adipisicing elit. Assumenda maxime, alias repellat neque! </li>
+                <li class="slideInDown3">Lorem ipsum dolor sit amet, Sed dolore deleniti possimus autem, eius modi quibusdam pariatur. </li>
+                <li class="slideInDown2">Sed dolore deleniti possimus autem, eius modi quibusdam pariatur. </li>
+                <li class="slideInDown1">Lorem ipsum dolor sit amet</li>
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>
